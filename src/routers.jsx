@@ -8,8 +8,8 @@ import Home from "./pages/Home/Home.jsx";
 export const routes = (
     <>
         <Route path="/" element={<Layout />}>
-            <Route  index element={< EyeGlasses/>} />
-            <Route path="home" element={<Home />} />
+            <Route index element={<Home />} />
+            <Route path="eyeglasses" element={< EyeGlasses/>} />
         </Route>
     </>
 );

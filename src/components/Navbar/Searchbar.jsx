@@ -7,7 +7,7 @@ import { BsCart3 } from "react-icons/bs";
 const Searchbar = () => {
     return (
         <div className="Searchbar py-4 border-b border-borderGray">
-            <div className="container flex flex-row items-center justify-between m-auto">
+            <div className="mx-48 flex flex-row items-center justify-between">
                 <div className="logo">
                     <img src={logo} alt="Notch Optics" className="w-7/12 h-auto" />
                 </div>
