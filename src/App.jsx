@@ -1,7 +1,11 @@
+import { BrowserRouter as Router, Routes } from 'react-router-dom';
+import {routes} from "./routers.jsx";
+
+
 export default function App() {
     return (
-        <h1 className="text-3xl font-bold underline">
-            Hello world!
-        </h1>
+        <Router>
+            <Routes>{routes}</Routes>
+        </Router>
     )
 }
