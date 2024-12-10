@@ -19,8 +19,10 @@ module.exports = {
         primary: "#21A29E",
         primaryBackground: '#F7F7F7',
         borderLightGray: "#E6E6E6",
+        bgLightGray:'#E9E9E9',
         borderGray: "#DDDDDD",
         accentGray: "#666666",
+        darkGray: "#454545",
       },
       fontFamily: {
         sans: ["verdana", "sans-serif"],

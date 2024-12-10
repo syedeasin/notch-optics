@@ -9,13 +9,55 @@ import { Link } from "react-router-dom";
 const NavigationMenuDemo = () => {
     return (
         <div className="shadow shadow-md">
-            <NavigationMenu.Root className="relative z-10 flex w-screen">
+            {/*Mobile Version */}
+            <NavigationMenu.Root className='visible md:hidden relative z-10 flex w-screen overflow-x-auto'>
+                <NavigationMenu.List className="mx-2 m-0 flex list-none bg-white gap-4 items-center whitespace-nowrap">
+                    <NavigationMenu.Item>
+                        <NavigationMenu.Trigger className="group px-1 flex flex-shrink-0 select-none items-center justify-between gap-0.5 whitespace-nowrap text-[12px] font-medium leading-10 md:leading-[60px] outline-none hover:text-primary focus:shadow-[0_0_0_2px] ">
+                            <Link to='#'>HOME</Link>
+                        </NavigationMenu.Trigger>
+                    </NavigationMenu.Item>
+                    <NavigationMenu.Item>
+                        <NavigationMenu.Trigger className="group px-1 flex flex-shrink-0 select-none items-center justify-between gap-0.5 whitespace-nowrap text-[12px] font-medium leading-10 md:leading-[60px] outline-none hover:text-primary focus:shadow-[0_0_0_2px]">
+                            <Link to='#'>EYEGLASS FRAMES</Link>
+                        </NavigationMenu.Trigger>
+                    </NavigationMenu.Item>
+                    <NavigationMenu.Item>
+                        <NavigationMenu.Trigger className="group px-1 flex flex-shrink-0 select-none items-center justify-between gap-0.5 whitespace-nowrap text-[12px] leading-[20px] md:leading-[60px] outline-none hover:text-primary focus:shadow-[0_0_0_2px]">
+                            <Link to='#'>RX LENSES</Link>
+                        </NavigationMenu.Trigger>
+                    </NavigationMenu.Item>
+                    <NavigationMenu.Item>
+                        <NavigationMenu.Trigger className="group px-1 flex flex-shrink-0 select-none items-center justify-between gap-0.5 whitespace-nowrap text-[12px] leading-[20px] md:leading-[60px] outline-none hover:text-primary focus:shadow-[0_0_0_2px]">
+                            <Link to='#'>SUNGLASSES</Link>
+                        </NavigationMenu.Trigger>
+                    </NavigationMenu.Item>
+                    <NavigationMenu.Item>
+                        <NavigationMenu.Trigger className="group px-1 flex flex-shrink-0 select-none items-center justify-between gap-0.5 whitespace-nowrap text-[12px] leading-[20px] md:leading-[60px] outline-none hover:text-primary focus:shadow-[0_0_0_2px]">
+                            <Link to='#'>READING GLASSES</Link>
+                        </NavigationMenu.Trigger>
+                    </NavigationMenu.Item>
+                    <NavigationMenu.Item>
+                        <NavigationMenu.Trigger className="group px-1 flex flex-shrink-0 select-none items-center justify-between gap-0.5 whitespace-nowrap text-[12px] leading-[20px] md:leading-[60px] outline-none hover:text-primary focus:shadow-[0_0_0_2px]">
+                            <Link to='#'>BLUE LIGHT GLASSES</Link>
+                        </NavigationMenu.Trigger>
+                    </NavigationMenu.Item>
+                    <NavigationMenu.Item>
+                        <NavigationMenu.Trigger className="group px-1 flex flex-shrink-0 select-none items-center justify-between gap-0.5 whitespace-nowrap text-[12px] leading-[20px] md:leading-[60px] outline-none hover:text-primary focus:shadow-[0_0_0_2px]">
+                            <Link to='#'>ACCESSORIES</Link>
+                        </NavigationMenu.Trigger>
+                    </NavigationMenu.Item>
+                </NavigationMenu.List>
+
+                {/*Desktop Version */}
+            </NavigationMenu.Root>
+            <NavigationMenu.Root className="hidden md:flex relative z-10 flex w-screen">
                 <NavigationMenu.List className="mx-48 center m-0 flex list-none bg-white gap-7 items-center">
                     <NavigationMenu.Item>
                         <NavigationMenu.Trigger className="group flex select-none items-center justify-between gap-0.5 rounded text-sm font-thin font-medium leading-[60px] outline-none hover:text-primary focus:shadow-[0_0_0_2px] focus:shadow-violet7">
                             EYEGLASS FRAMES{" "}
                             <CaretDownIcon
-                                className="relative h-6 w-6 text-primary transition-transform duration-[100] ease-in group-data-[state=open]:-rotate-180"
+                                className="relative h-6 w-6 hover:text-primary transition-transform duration-[100] ease-in group-data-[state=open]:-rotate-180"
                                 aria-hidden
                             />
                         </NavigationMenu.Trigger>
@@ -28,7 +70,7 @@ const NavigationMenuDemo = () => {
                         <NavigationMenu.Trigger className="group flex select-none items-center justify-between gap-0.5 rounded text-sm font-thin font-medium leading-[60px] outline-none hover:text-primary focus:shadow-[0_0_0_2px] focus:shadow-violet7">
                             RX LENSES{" "}
                             <CaretDownIcon
-                                className="relative h-6 w-6 text-primary transition-transform duration-[100] ease-in group-data-[state=open]:-rotate-180"
+                                className="relative h-6 w-6 hover:text-primary transition-transform duration-[100] ease-in group-data-[state=open]:-rotate-180"
                                 aria-hidden
                             />
                         </NavigationMenu.Trigger>
@@ -57,7 +99,7 @@ const NavigationMenuDemo = () => {
                             className="group flex select-none items-center justify-between gap-0.5 rounded text-sm font-thin font-medium leading-[60px] outline-none hover:text-primary focus:shadow-[0_0_0_2px] focus:shadow-violet7">
                             SUNGLASSES{" "}
                             <CaretDownIcon
-                                className="relative h-6 w-6 text-primary transition-transform duration-[100] ease-in group-data-[state=open]:-rotate-180"
+                                className="relative h-6 w-6 hover:text-primary transition-transform duration-[100] ease-in group-data-[state=open]:-rotate-180"
                                 aria-hidden
                             />
                         </NavigationMenu.Trigger>
@@ -72,7 +114,7 @@ const NavigationMenuDemo = () => {
                             className="group flex select-none items-center justify-between gap-0.5 rounded text-sm font-thin font-medium leading-[60px] outline-none hover:text-primary focus:shadow-[0_0_0_2px] focus:shadow-violet7">
                             READING GLASSES{" "}
                             <CaretDownIcon
-                                className="relative h-6 w-6 text-primary transition-transform duration-[100] ease-in group-data-[state=open]:-rotate-180"
+                                className="relative h-6 w-6 hover:text-primary transition-transform duration-[100] ease-in group-data-[state=open]:-rotate-180"
                                 aria-hidden
                             />
                         </NavigationMenu.Trigger>
@@ -85,7 +127,7 @@ const NavigationMenuDemo = () => {
                         <NavigationMenu.Trigger className="group flex select-none items-center justify-between gap-0.5 rounded text-sm font-thin font-medium leading-[60px] outline-none hover:text-primary focus:shadow-[0_0_0_2px] focus:shadow-violet7">
                             BLUE LIGHT GLASSES{" "}
                             <CaretDownIcon
-                                className="relative h-6 w-6 text-primary transition-transform duration-[100] ease-in group-data-[state=open]:-rotate-180"
+                                className="relative h-6 w-6 hover:text-primary transition-transform duration-[100] ease-in group-data-[state=open]:-rotate-180"
                                 aria-hidden
                             />
                         </NavigationMenu.Trigger>
@@ -103,7 +145,7 @@ const NavigationMenuDemo = () => {
                         <NavigationMenu.Trigger className="group flex select-none items-center justify-between gap-0.5 rounded text-sm font-thin font-medium leading-[60px] outline-none hover:text-primary focus:shadow-[0_0_0_2px] focus:shadow-violet7">
                             ABOUT{" "}
                             <CaretDownIcon
-                                className="relative h-6 w-6 text-primary transition-transform duration-[100] ease-in group-data-[state=open]:-rotate-180"
+                                className="relative h-6 w-6 hover:text-primary transition-transform duration-[100] ease-in group-data-[state=open]:-rotate-180"
                                 aria-hidden
                             />
                         </NavigationMenu.Trigger>

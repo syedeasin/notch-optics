@@ -1,19 +1,28 @@
 import logo from '../../assets/Notch_Optical_logo.webp';
 import { RiSearchLine } from "react-icons/ri";
 import { PiUser } from "react-icons/pi";
-import { IoIosHeartEmpty } from "react-icons/io";
 import { BsCart3 } from "react-icons/bs";
+import {AiOutlineMenu} from "react-icons/ai";
+import {GoHeart} from "react-icons/go";
+import {IoSearchOutline} from "react-icons/io5";
 
 const Searchbar = () => {
     return (
         <div className="Searchbar py-4 border-b border-borderGray">
-            <div className="mx-48 flex flex-row items-center justify-between">
-                <div className="logo">
-                    <img src={logo} alt="Notch Optics" className="w-7/12 h-auto" />
+            <div className="container mx-auto px-4 flex flex-row items-center justify-between">
+                <div className='md:hidden mobile-nav flex gap-4'>
+                    <AiOutlineMenu className='visible md:hidden w-6 h-6 md:w-9 md:h-9 text-accentGray'/>
+                    <GoHeart className='visible md:hidden w-6 h-6 md:w-9 md:h-9 text-accentGray'/>
                 </div>
-                <div className="searchBar flex flex-row items-center justify-between gap-10">
+                {/*Notch Optics Logo */}
+                <div className="logo flex-shrink-0">
+                    <img src={logo} alt="Notch Optics" className="w-36 md:w-48 h-auto" />
+                </div>
+
+                {/*Searchbar + Profile + Favourite + Cart */}
+                <div className="flex flex-row searchBar items-center justify-between gap-4 md:gap-10">
                     <div className="search">
-                        <div className="join">
+                        <div className="join hidden md:flex">
                             <div>
                                 <div>
                                     <input
@@ -22,19 +31,20 @@ const Searchbar = () => {
                                 </div>
                             </div>
                             <div className="indicator">
-                                <button className="join-item rounded-none  bg-accentGray hover:bg-accentGray transition-none px-3"><RiSearchLine className='w-6 h-6 text-white'/>
+                                <button className="join-item rounded-none  bg-accentGray hover:bg-accentGray transition-none px-3"><IoSearchOutline className='w-6 h-6 text-white'/>
                                 </button>
                             </div>
                         </div>
+                        <IoSearchOutline className='visible md:hidden w-6 h-6 md:w-9 md:h-9 text-accentGray'/>
                     </div>
-                    <div className="profile">
+                    <div className="profile hidden md:flex">
                         <PiUser className='w-9 h-9 text-accentGray'/>
                     </div>
-                    <div className="favourite">
-                        <IoIosHeartEmpty className='w-9 h-9 text-accentGray'/>
+                    <div className="favourite hidden md:flex">
+                        <GoHeart className='w-9 h-9 text-accentGray'/>
                     </div>
                     <div className="menuCart">
-                        <BsCart3 className='w-9 h-9 text-accentGray'/>
+                        <BsCart3 className='w-6 h-6 md:w-9 md:h-9 text-accentGray'/>
                     </div>
                 </div>
             </div>
