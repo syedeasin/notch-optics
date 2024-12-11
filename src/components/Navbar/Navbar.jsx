@@ -1,7 +1,7 @@
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 import { CaretDownIcon } from "@radix-ui/react-icons";
 
-import MegaMenuLayout from "@/components/Navbar/MegaMenuLayout.jsx";
+import MegaMenuLayout from "../../components/Navbar/MegaMenuLayout.jsx";
 import menuContent from '../../services/Navbar/MenuContent.js';
 import rxLenses from '../../services/Navbar/RxLenses.js';
 import { Link } from "react-router-dom";

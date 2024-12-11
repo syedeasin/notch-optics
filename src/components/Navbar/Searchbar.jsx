@@ -4,6 +4,7 @@ import { BsCart3 } from "react-icons/bs";
 import {AiOutlineMenu} from "react-icons/ai";
 import {GoHeart} from "react-icons/go";
 import {IoSearchOutline} from "react-icons/io5";
+import {Link} from "react-router-dom";
 
 const Searchbar = () => {
     return (
@@ -15,7 +16,7 @@ const Searchbar = () => {
                 </div>
                 {/*Notch Optics Logo */}
                 <div className="logo flex-shrink-0">
-                    <img src={logo} alt="Notch Optics" className="w-36 xl:w-48 h-auto" />
+                    <Link to='./'><img src={logo} alt="Notch Optics" className="w-36 xl:w-48 h-auto"/></Link>
                 </div>
 
                 {/*Searchbar + Profile + Favourite + Cart */}

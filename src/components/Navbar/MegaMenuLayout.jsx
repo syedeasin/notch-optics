@@ -13,7 +13,7 @@ const MegaMenuLayout = ({categories,images}) => {
                 </div>
                 <div className="imageryMenu flex flex-row gap-6">
                     {images.map((image, index) => (
-                        <Link to='#' key={index} className="group">
+                        <Link to={image.url} key={index} className="group">
                             <img src={image.src} alt={image.label} />
                             <p className="text-center text-sm mt-6 group-hover:text-primary">{image.label}</p>
                         </Link>

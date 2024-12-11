@@ -28,8 +28,10 @@ module.exports = {
         sans: ["verdana", "sans-serif"],
       },
       fontSize: {
+        'md':['18px','42px'],
         'lg':['24px','30px'],
         '2xl': ['36px', '45px'],
+        '3xl': ['38px', '60px'],
         '4xl': ['18px', '28px'],
       },
       keyframes: {
