@@ -2,7 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    font-family: 'Verdana', sans-serif;
-    overflow-x: hidden;
+@layer base {
+    body {
+        font-family: 'Verdana', sans-serif;
+        overflow-x: hidden;
+    }
+    h2 {
+        @apply text-2xl font-semibold uppercase;
+    }
+    h4 {
+        @apply text-4xl font-semibold;
+    }
+    p {
+        @apply text-base leading-relaxed;
+    }
+    .p-sm {
+        @apply text-sm;
+    }
+    .p-lg {
+        @apply text-lg;
+    }
 }

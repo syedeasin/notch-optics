@@ -5,8 +5,8 @@ const Home = () => {
     return (
         <div className='bg-primaryBackground'>
             <HeroSection/>
-            <div className='mx-48'>
-                <HomeCategorySec/>
+            <div className='container mx-auto px-4'>
+                {/*<HomeCategorySec/>*/}
             </div>
         </div>
     );

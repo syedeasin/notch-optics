@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const MegaMenuLayout = ({categories,images}) => {
     return (
-        <div className=" mx-48 text-black">
+        <div className="container mx-auto px-4 text-black">
             <div className="flex flex-row gap-6">
                 <div className="border-r-[1px] border-borderLightGray">
                     <div className='pr-12'>

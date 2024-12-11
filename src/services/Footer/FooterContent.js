@@ -1,6 +1,6 @@
 const FooterContent = {
     shop:{
-        listLabel: 'SHOP',
+        listLabel: 'Shop',
         listItem: [
             "Rx Lens",
             "All Eyeglass Frames",
@@ -10,7 +10,7 @@ const FooterContent = {
         ]
     },
     service:{
-        listLabel: 'SERVICE',
+        listLabel: 'Service',
         listItem: [
             "Custom Logo",
             "Rx Glasses Assembly",
@@ -20,7 +20,7 @@ const FooterContent = {
         ]
     },
     learn:{
-        listLabel: 'LEARN',
+        listLabel: 'Learn',
         listItem: [
             "What is TR Material",
             "What is TPE Material",
@@ -29,7 +29,7 @@ const FooterContent = {
         ]
     },
     about:{
-        listLabel: 'ABOUT',
+        listLabel: 'About',
         listItem: [
             "About Us",
             "Contact Us",

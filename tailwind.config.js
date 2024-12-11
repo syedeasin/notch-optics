@@ -27,6 +27,11 @@ module.exports = {
       fontFamily: {
         sans: ["verdana", "sans-serif"],
       },
+      fontSize: {
+        'lg':['24px','30px'],
+        '2xl': ['36px', '45px'],
+        '4xl': ['18px', '28px'],
+      },
       keyframes: {
         enterFromRight: {
           from: { opacity: "0", transform: "translateX(200px)" },
