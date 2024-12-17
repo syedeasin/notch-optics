@@ -17,6 +17,7 @@ module.exports = {
         ...purple,
         ...indigo,
         primary: "#21A29E",
+        primaryLight: '#46ECE2',
         primaryBackground: '#F7F7F7',
         borderLightGray: "#E6E6E6",
         bgLightGray:'#E9E9E9',
@@ -28,8 +29,10 @@ module.exports = {
         sans: ["verdana", "sans-serif"],
       },
       fontSize: {
+        'regular':['16px','32px'],
         'md':['18px','42px'],
         'lg':['24px','30px'],
+        'xl':['28px','40px'],
         '2xl': ['36px', '45px'],
         '3xl': ['38px', '60px'],
         '4xl': ['18px', '28px'],
