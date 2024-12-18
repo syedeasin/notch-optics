@@ -24,13 +24,15 @@ module.exports = {
         borderGray: "#DDDDDD",
         accentGray: "#666666",
         darkGray: "#454545",
+        textColor:'#8a8a8a',
+        textColorLight: '#999999',
       },
       fontFamily: {
         sans: ["verdana", "sans-serif"],
       },
       fontSize: {
         'regular':['16px','32px'],
-        'md':['18px','42px'],
+          'md':['18px','42px'],
         'lg':['24px','30px'],
         'xl':['28px','40px'],
         '2xl': ['36px', '45px'],
