@@ -45,10 +45,10 @@ import oemNav from "../../assets/oem.webp";
     about: {
         categories: ["About Us", "Packing and Shipping", "After Sale Service"],
         images: [
-            { src: customLogoNav, label: "Custom Logo", url:'./service-custom-logo' },
-            { src: assemblyNav, label: "Rx Glasses Assembly", url:'#' },
-            { src: dropshippingNav, label: "Dropshipping", url:'#' },
-            { src: oemNav, label: "OEM / ODM", url:'#' },
+            { src: customLogoNav, label: "Custom Logo", url:'/service-custom-logo' },
+            { src: assemblyNav, label: "Rx Glasses Assembly", url:'/service-prescription-glasses-assembly' },
+            { src: dropshippingNav, label: "Dropshipping", url:'/service-dropshipping' },
+            { src: oemNav, label: "OEM / ODM", url:'service-glasses-oem-odm' },
         ],
     },
 };

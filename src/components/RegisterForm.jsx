@@ -1,7 +1,7 @@
 import {TfiEmail, TfiUser} from "react-icons/tfi";
 import {PiBuildingOfficeLight, PiPasswordLight} from "react-icons/pi";
 import {FiEye, FiEyeOff} from "react-icons/fi";
-import countries from "../pages/Login & Register/Countries.js";
+import countries from "../pages/Login&Register/Countries.js";
 import {useState} from "react";
 import {BsTelephone} from "react-icons/bs";
 

@@ -34,7 +34,8 @@ module.exports = {
       },
       fontSize: {
         'regular':['16px','32px'],
-          'md':['18px','42px'],
+        'md':['18px','42px'],
+        'semi-md':['22px','34px'],
         'lg':['24px','30px'],
         'xl':['28px','40px'],
         '2xl': ['36px', '45px'],

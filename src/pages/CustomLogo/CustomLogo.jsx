@@ -18,7 +18,7 @@ const CustomLogo = () => {
     return (
         <div className="customLogo">
             <div className="page-title bg-gray-400" style={{backgroundImage: `url(${titleBgImage})`,backgroundSize: 'cover',backgroundPosition: 'center',}}>
-                <div className="container mx-auto px-20 pt-20 pb-10">
+                <div className="container mx-auto px-28 pt-20 pb-10">
                     <h2 className='text-[130px] leading-[130px] uppercase text-primary font-black tracking-tighter'>Logo</h2>
                     <h2 className='text-[130px] leading-[130px] uppercase text-primary font-black tracking-tighter mb-6'>Service</h2>
                     <h2 className='text-[24px] leading-[30px] capitalize text-white bg-primary font-medium mx-auto inline px-6 py-1'>Glasses Frame & Packing Custom Logo Service
@@ -26,9 +26,9 @@ const CustomLogo = () => {
                 </div>
             </div>
             <div className='bg-white'>
-                <div className='container mx-auto px-20 pt-20 pb-32 text-center'>
+                <div className='container mx-auto px-28 pt-20 pb-32 text-center'>
                     <h2>CUSTOMIZED LOGO ON FRAMES</h2>
-                    <p className='p-lg w-1/2 px-20 mx-auto mt-8'>MOQ 1 PC customized logo on frame free on frame for
+                    <p className='p-lg w-1/2 px-28 mx-auto mt-8'>MOQ 1 PC customized logo on frame free on frame for
                         order amount over $199</p>
                     <h2 className='mt-20 mb-12'>EXAMPLES Of Finished Products</h2>
                     <div className="grid grid-cols-4 grid-rows-1 gap-2">
