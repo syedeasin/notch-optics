@@ -9,7 +9,7 @@ import mobileMenu from "../../services/Navbar/MobileMenu.js";
 
 const NavigationMenuDemo = () => {
     return (
-        <div className="shadow shadow-md">
+        <div className="shadow-md">
             {/*Mobile Version */}
             <NavigationMenu.Root className='visible xl:hidden relative z-10 w-screen overflow-x-auto'>
                 <NavigationMenu.List className="container mx-auto px-4 m-0 flex list-none bg-white gap-4 items-center whitespace-nowrap">

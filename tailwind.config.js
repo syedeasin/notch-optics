@@ -25,6 +25,7 @@ module.exports = {
         borderGray: "#DDDDDD",
         accentGray: "#666666",
         darkGray: "#454545",
+        formTextColor:"#757575",
         textColor:'#8a8a8a',
         textColorLight: '#999999',
       },
