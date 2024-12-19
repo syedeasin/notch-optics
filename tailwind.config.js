@@ -17,6 +17,7 @@ module.exports = {
         ...purple,
         ...indigo,
         primary: "#21A29E",
+        primaryHover: "#1E9491",
         primaryLight: '#46ECE2',
         primaryBackground: '#F7F7F7',
         borderLightGray: "#E6E6E6",
