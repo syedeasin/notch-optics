@@ -9,6 +9,7 @@ import RegisterForm from "./components/RegisterForm.jsx";
 import RxGlassesAssembly from "./pages/RXGlassesAssembly/RxGlassesAssembly.jsx";
 import Dropshipping from "./pages/Dropshipping/Dropshipping.jsx";
 import OemOde from "./pages/OemOde/OemOde.jsx";
+import Account from "./pages/Account/Account.jsx";
 
 
 export const routes = (
@@ -23,6 +24,9 @@ export const routes = (
             <Route path='login' element={<LoginRegister />} />
             <Route path='register' element={<RegisterForm />} />
             <Route path='forgotpassword' element={<ForgotPassword />} />
+
+            {/*Account Pages*/}
+            <Route path='account' element={<Account />} />
 
         </Route>
     </>
