@@ -5,92 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33addc5d-8109-4d0a-b44b-3f065832caf2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Account/Account.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Account/AccountInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/notchOptics.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/Layout.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Accessories_1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Blue_Light.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Eyeglasses_Frames.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Notch_Optical_logo.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Reading_Glasses.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Rx_Lens_1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Sunglasses.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/assembly1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/assembly2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/assembly3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/customLogoImage.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/dropshipping-pdf.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/dropshipping.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fencyStyle.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fencyStyleSunglasses.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/hero_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/kids.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/men.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/menYoung.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/oem.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/pageTitleCustomLogo.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/products1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/products22.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/products3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/products44.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/rx glasses assembly.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/serviceImg1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/serviceImg2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/serviceImg3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/serviceImg4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/shipping1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/shipping2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/sportsNav.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/sportsSunglasse.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/videos/aboutus.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/women.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/womenYoung.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Buttons/PrimaryButton.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FaqContent.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LoginForm.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/MegaMenuLayout.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Searchbar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Topbar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegisterForm.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ServiceCard.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TestimonialSlider.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CustomLogo/CustomLogo.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Dropshipping/Dropshipping.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Eyeglasses/EyeGlasses.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/HeroSection.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/HomeAboutSec.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/HomeCategorySec.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/HomeContents.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/HomeReviewSec.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/HomeServicesSec.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login&amp;Register/Countries.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login&amp;Register/ForgetPassword.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login&amp;Register/LoginRegister.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OemOde/OemOde.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/RXGlassesAssembly/RxGlassesAssembly.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routers.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Footer/FooterContent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Navbar/MenuContent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Navbar/MobileMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Navbar/RxLenses.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Buttons/SecondaryButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Account/AddNewProduct.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Account/Account.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Account/Account.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +91,9 @@
       <workItem from="1734484087576" duration="16933000" />
       <workItem from="1734569246873" duration="31370000" />
       <workItem from="1734618619379" duration="868000" />
-      <workItem from="1734969522491" duration="6903000" />
+      <workItem from="1734969522491" duration="9658000" />
+      <workItem from="1735035561789" duration="3521000" />
+      <workItem from="1735057623310" duration="291000" />
     </task>
     <servers />
   </component>
