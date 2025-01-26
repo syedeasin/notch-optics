@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33addc5d-8109-4d0a-b44b-3f065832caf2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Buttons/SecondaryButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Account/AddNewProduct.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/notch_experts/notch_optics/NotchOpticsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/notch_experts/notch_optics/NotchOpticsApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Account/Account.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Account/Account.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +100,10 @@
       <workItem from="1734969522491" duration="9658000" />
       <workItem from="1735035561789" duration="3521000" />
       <workItem from="1735057623310" duration="291000" />
+      <workItem from="1735693054325" duration="45000" />
+      <workItem from="1735805785152" duration="1875000" />
+      <workItem from="1736990603774" duration="7000" />
+      <workItem from="1737890919152" duration="1383000" />
     </task>
     <servers />
   </component>
